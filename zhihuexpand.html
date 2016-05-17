@@ -2,7 +2,7 @@
     function zhexpandall(){
         var expandbtns = document.querySelectorAll('a.toggle-expand');
         for(var i = 0; i < expandbtns.length; i++){ expandbtns[i].click(); }
-        var morebtn = document.querySelector('a[class$=\"-button-more\"]');
+        var morebtn = document.querySelector('a[class$=&quot;-button-more&quot;]');
         if(morebtn){
             if(morebtn.getAttribute('class').indexOf('loading') < 0){
                 morebtn.click();
