@@ -1,4 +1,5 @@
-<strong>What it does: clicks the shit out of 更多 button every 3 sec untill it disappears, and expands any collapsed answer along the way.</strong>
+<strong>What it does: clicks the shit out of 更多 button every 3 sec untill it disappears, and expands any collapsed answer
+along the way.</strong>
 <hr>
 <h3>Installation</h3>
 <h4>As Bookmarklet</h4>
@@ -18,22 +19,32 @@ For Chrome (and any other sane browser) this could be 'installed' simply as a bo
     }
     zhexpandall();
 })()">zhexpand!</a> to your bookmark bar. feel free to rename it.<br>
-2. Go into a <em>single</em> question page and click the bookmark. The page should start scroll itself down and the 更多 button is clicked. If the process gets aborted for some reason, just click the bookmark again.
+2. Go into a <em>single</em> question page and click the bookmark. The page should start scroll itself down and the 更多
+button is clicked. If the process gets aborted for some reason, just click the bookmark again.
 <br>
-As simple as it goes, there is no way to stop the auto expanding. If you don't want to install yet another extension from below that is stoppable (like me), but you are ok with another bookmarklet, then here it is: <a href="javascript:(function(){var highestTimeoutId = setTimeout(';'); for(var i = 0 ; i < highestTimeoutId ; i++) clearTimeout(i); })();">Stop!</a>. Just make sure you won't click it on another website tho, might break things.
+As simple as it goes, there is no way to stop the auto expanding. If you don't want to install yet another extension from
+below that is stoppable (like me), but you are ok with another bookmarklet, then here it is:
+<a href="javascript:(function(){var highestTimeoutId = setTimeout(';'); for(var i = 0 ; i < highestTimeoutId ; i++) clearTimeout(i); })();">Stop!</a>.
+Just make sure you won't click it on another website tho, might break things.
 <hr>
 <h4>As Extension / Addon</h4>
 For <b>Firefox</b> this has to be installed as an extension (due to script source restriction):<br>
 1. Download <a href="https://github.com/metaphox/zhexpand/raw/master/zhexpand-0.2-fx.xpi">zhexpand-0.2-fx.xpi</a>.<br>
 2. Install it by dragging the .xpi file into firefox. Yes I did sign it, mozilla forced my hand.<br>
-3. When browsing zhihu.com, you should see a blue '[ + ]' button in the top right corner, just below your userlame. (lame!) Try click it on a <em>single</em> question page.<br>
+3. When browsing zhihu.com, you should see a blue '[ + ]' button in the top right corner, just below your userlame. (lame!)
+Try click it on a <em>single</em> question page.<br>
 4. Click the '[ / ]' to stop the expansion process.<br>
 <br>
-Optionally, <b>Chrome</b> users can also install it as an extension. Since I don't want to put it into Chrome webstore, this must be done the hard way:<br>
+Optionally, <b>Chrome</b> users can also install it as an extension. Since I don't want to put it into Chrome webstore, this
+must be done the hard way:<br>
 1. Download the zipped source code <a href="https://github.com/metaphox/zhexpand/archive/master.zip">master.zip</a>.<br>
 2. Unpack the .zip file to, say, Downloads/zhexpand.<br>
-3. In Chrome, go to <a href="chrome://extensions/">chrome://extensions/</a> or Option Button - More Tools - Extensions, click "Load unpacked extension...", then choose the directory where you just unpacked the .zip file, e.g. Downloads/zhexpand, click ok. The extension should appear in the list. There might be a warning complaining unknown stuff in the manifest file, but that's okay.<br>
-4. Open a new tab and visit zhihu.com. You should see a blue '[ + ]' button in the top right corner, just below your username. Try click it on a <em>single</em> question page.<br>
+3. In Chrome, go to <a href="chrome://extensions/">chrome://extensions/</a> or Option Button - More Tools - Extensions, click
+"Load unpacked extension...", then choose the directory where you just unpacked the .zip file, e.g. Downloads/zhexpand, click
+ok. The extension should appear in the list. There might be a warning complaining unknown stuff in the manifest file, but
+that's okay.<br>
+4. Open a new tab and visit zhihu.com. You should see a blue '[ + ]' button in the top right corner, just below your username.
+Try click it on a <em>single</em> question page.<br>
 4. Click the '[ / ]' to stop the expansion process.
 <hr>
 BSD and WTFPL licenced.<br>
@@ -41,4 +52,5 @@ BSD and WTFPL licenced.<br>
        src="http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png"
        width="220" height="160" alt="WTFPL" /></a>
 <hr>
-<p>This tiny extension was made specifically to <a href="https://www.zhihu.com/people/magasa">Magasa</a>'s request. In other words, if he doesn't complain, this thing stays as it is.</p>
+<p>This tiny extension was made specifically to <a href="https://www.zhihu.com/people/magasa">Magasa</a>'s request. In other
+words, if he doesn't complain, this thing stays as it is.</p>
