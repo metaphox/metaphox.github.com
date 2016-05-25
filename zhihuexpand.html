@@ -19,6 +19,8 @@ For Chrome (and any other sane browser) this could be 'installed' simply as a bo
     zhexpandall();
 })()">zhexpand!</a> to your bookmark bar. feel free to rename it.<br>
 2. Go into a <em>single</em> question page and click the bookmark. The page should start scroll itself down and the 更多 button is clicked. If the process gets aborted for some reason, just click the bookmark again.
+<br>
+As simple as it goes, there is no way to stop the auto expanding. If you don't want to install yet another extension from below that is stoppable (like me), but you are ok with another bookmarklet, then here it is: <a href="javascript:(function(){var highestTimeoutId = setTimeout(';'); for(var i = 0 ; i < highestTimeoutId ; i++) clearTimeout(i); })();">Stop!</a>. Just make sure you won't click it on another website tho, might break things.
 <hr>
 <h4>As Extension / Addon</h4>
 For <b>Firefox</b> this has to be installed as an extension (due to script source restriction):<br>
